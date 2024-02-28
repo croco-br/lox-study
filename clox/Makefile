@@ -14,3 +14,6 @@ $(BUILD_DIR)/clox: $(wildcard $(SRC_DIR)/*.c)
 
 clean:
 	rm -rf $(BUILD_DIR)
+
+run:
+	./$(BUILD_DIR)/clox
